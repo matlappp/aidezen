@@ -230,7 +230,7 @@ section .max-container {
 .hero-main {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 .hero-wrap {
     position: absolute;
@@ -592,6 +592,7 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 
 
 

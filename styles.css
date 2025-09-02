@@ -563,6 +563,12 @@ footer .max-container {
         min-width: 36px;
         max-width: 36px;
     }
+    section, footer {
+        padding: 6rem 3rem;
+    }
+    .main-logo {
+        max-height: 60px;
+    }
 }
 @media (max-width: 360px) {
     h1 {
@@ -573,4 +579,5 @@ footer .max-container {
     }
 
 }
+
 

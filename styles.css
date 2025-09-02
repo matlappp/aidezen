@@ -76,7 +76,7 @@ header {
     justify-content: center;
     background-color: #FFFFFF;
     transition: box-shadow 0.3s ease;
-    z-index: 1;
+    z-index: 3;
 }
 .sidebar-header {
     display: flex;
@@ -573,3 +573,4 @@ footer .max-container {
     }
 
 }
+

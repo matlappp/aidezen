@@ -565,13 +565,13 @@ footer .max-container {
         max-width: 36px;
     }
     section, footer {
-        padding: 5rem 2rem;
+        padding: 5rem 2.5rem;
     }
     .main-logo {
         max-height: 60px;
     }
     .header {
-        padding: 1rem 1.5rem;
+        padding: 1.5rem 2rem;
     }
     .footer-main, .footer-nav, .footer-cell, .footer ul  {
         align-items: center;
@@ -585,4 +585,5 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 

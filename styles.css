@@ -573,6 +573,9 @@ footer .max-container {
     .header {
         padding: 1rem 1.5rem;
     }
+    .footer-main, .footer-nav, .footer-cell, .footer ul  {
+        align-items: center;
+    }
 }
 @media (max-width: 360px) {
     h1 {
@@ -582,3 +585,4 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+

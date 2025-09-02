@@ -24,19 +24,19 @@ ul:not(.start-form ul) {
 }
 @font-face {
     font-family: Roboto;
-    src: url(./Roboto-Regular.ttf);
+    src: url(./fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: RobotoSemi;
-    src: url(./Roboto-SemiBold.ttf);
+    src: url(./fonts/Roboto-SemiBold.ttf);
 }
 @font-face {
     font-family: RobotoBold;
-    src: url(./Roboto-Bold.ttf);
+    src: url(./fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: RobotoExtra;
-    src: url(./Roboto-ExtraBold.ttf);
+    src: url(./fonts/Roboto-ExtraBold.ttf);
 }
 html {
     scroll-behavior: smooth;
@@ -571,4 +571,5 @@ footer .max-container {
     .hero-p {
         font-size: 1rem;
     }
+
 }

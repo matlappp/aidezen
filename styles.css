@@ -239,6 +239,7 @@ section .max-container {
 }
 .hero-wrap {
     position: absolute;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -579,5 +580,6 @@ footer .max-container {
     }
 
 }
+
 
 

@@ -402,6 +402,7 @@ h1 {
 .start-wrap {
     display: flex;
     gap: 2rem;
+    width: 100%;
 }
 .start-wrap > div {
     width: 100%;
@@ -450,6 +451,7 @@ h1 {
 .start-img img {
     object-fit: cover;
     object-position: center;
+    height: 100%;
     width: 100%;
     border-radius: 2px;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -594,6 +596,7 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 
 
 

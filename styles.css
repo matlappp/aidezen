@@ -438,6 +438,9 @@ h1 {
     z-index: 1;
     border-radius: 5px;
 }
+.start-form a:hover {
+    background-color: #3E8BA3;
+}
 .start-img img {
     object-fit: cover;
     object-position: center;
@@ -585,6 +588,7 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 
 
 

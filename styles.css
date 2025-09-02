@@ -573,7 +573,7 @@ footer .max-container {
     .header {
         padding: 1.5rem 2rem;
     }
-    .footer-main, .footer-nav, .footer-cell, .footer ul  {
+    .footer-main, .footer-nav, .footer-cell, footer ul  {
         align-items: center;
     }
 }
@@ -585,6 +585,7 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 
 
 

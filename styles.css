@@ -78,6 +78,12 @@ header {
     transition: box-shadow 0.3s ease;
     z-index: 3;
 }
+.visit-link {
+    color: #5595A9;
+}
+.visit-link:hover {
+    color: #3E8BA3;
+}
 .sidebar-header {
     display: flex;
     justify-content: space-between;
@@ -588,6 +594,7 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 
 
 

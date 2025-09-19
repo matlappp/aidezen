@@ -66,6 +66,25 @@ body {
     top: 0px;
     background: #00000066;
 }
+.banner {
+    display: flex;
+    padding: 1rem 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    transition: box-shadow 0.3s ease;
+    z-index: 3;
+}
+.banner-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
 header {
     display: flex;
     padding: 2rem 3rem;
@@ -592,3 +611,4 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+

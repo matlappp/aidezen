@@ -68,20 +68,19 @@ body {
 }
 .banner {
     display: flex;
-    padding: 1rem 0.5rem;
+    height: 40px;
     position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
-    transition: box-shadow 0.3s ease;
+    background-color: #DDDDDD;
     z-index: 3;
 }
 .banner-wrap {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1200px;
 }
@@ -89,7 +88,7 @@ header {
     display: flex;
     padding: 2rem 3rem;
     position: fixed;
-    top: 0;
+    top: 40px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -611,4 +610,5 @@ footer .max-container {
         font-size: 1rem;
     }
 }
+
 

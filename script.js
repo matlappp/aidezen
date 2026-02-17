@@ -13,7 +13,6 @@ const sidebar = document.getElementById('sidebar');
 const darkSidebarOverlay = document.getElementById('darkSidebarOverlay');
 const links = sidebar.querySelectorAll('a');
 
-// Function to close sidebar
 function closeSidebar() {
     sidebar.classList.remove('active');
     btn.style.display = 'block';
@@ -22,7 +21,6 @@ function closeSidebar() {
     darkSidebarOverlay.style.display = 'none';
 }
 
-// Open sidebar
 btn.addEventListener('click', () => {
     sidebar.classList.add('active');
     btn.style.display = 'none';
@@ -31,13 +29,12 @@ btn.addEventListener('click', () => {
     document.body.style.overflow = 'hidden';
 });
 
-// Close sidebar (X button)
 cancel.addEventListener('click', closeSidebar);
-
-// Close sidebar (click on overlay)
 darkSidebarOverlay.addEventListener('click', closeSidebar);
 
-// Close sidebar (click on any link inside)
 links.forEach(link => {
     link.addEventListener('click', closeSidebar);
 });
+
+const yearSpan = document.getElementById('year');
+yearSpan.textContent = new Date().getFullYear();
